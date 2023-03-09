@@ -1,0 +1,10 @@
+td{padding: 40px;}
+table>tbody>tr:nth-child(odd)>td:nth-child(even){
+    background-color: black;
+}
+table>tbody>tr:nth-child(even)>td:nth-child(even){
+    background-color: white;
+}
+table>tbody>tr:nth-child(even)>td:nth-child(odd){
+    background-color: black;
+}
